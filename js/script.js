@@ -1,5 +1,10 @@
-// Use this URL to fetch NASA APOD JSON data
+// OPTION 1: Use this URL to fetch NASA APOD JSON data (if provided by instructor)
 const apodData = 'https://cdn.jsdelivr.net/gh/GCA-Classroom/apod/data.json';
+
+// OPTION 2: Use real NASA API (requires API key from https://api.nasa.gov)
+// Uncomment these lines and add your API key to use the real NASA API instead:
+// const NASA_API_KEY = 'DEMO_KEY'; // Replace with your key from api.nasa.gov
+// const NASA_API_URL = 'https://api.nasa.gov/planetary/apod';
 
 // Get references to DOM elements
 const getImageBtn = document.getElementById('getImageBtn');
